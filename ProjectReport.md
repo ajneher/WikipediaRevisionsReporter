@@ -36,6 +36,11 @@ and display them on their own line.
 approaches to string concatenation you explored in challenge #3. Which do you
 prefer, and why?)
 
+I think there are a lot of pros and cons for both. I think I was originally drawn to the iterative
+approach because that is what I am comfortable with. However after completing the challenge, I can
+see why the functional approach is better. It accomplishes the same task with less lines of code. I 
+believe that is always the ideal scenario as it will make it easier to debug your code should you come
+across any errors.
 
 ## Reflection Question #2: Polymorphism and Dependency Inversion
 
@@ -44,4 +49,8 @@ application. Be clear and precise here, as this is, in part, an assessment of
 your correct use of technical terminology.
 Consider, for example, where exactly is polymorphism used?
 Where exactly is a dependency inverted?)
+
+Polymorphism is used a lot in this program, for example NewRevisionFormatter and WikipediaQueryEngine use 
+polymorphism with the interfaces they implement. One place dependency is inverted is in WikipediaAnalyzer where guice
+can inject the needed modules at runtime.
 
