@@ -16,9 +16,8 @@ Please remove this subsection before submitting your report.
 
 ## Challenge #1 Complete
 
-(Explain your solution to Challenge #1. If it is not complete, change
-the subsection title above to "Incomplete" and explain how far you got
-and where you got stuck.)
+For this challenge I changed QueryEngine so that it uses WikipediaQueryEngine rather than FakeQueryEngine.
+ALl I had to do was modify the QueryEngineModule by changing FakeQueryEngine to WikipediaQueryEngine.
 
 ## Challenge #2 Complete
 
