@@ -21,21 +21,21 @@ ALl I had to do was modify the QueryEngineModule by changing FakeQueryEngine to 
 
 ## Challenge #2 Complete
 
-(Explain your solution to Challenge #2. If it is not complete, change
-the subsection title above to "Incomplete" and explain how far you got
-and where you got stuck.)
+To complete Challenge 2 I simply followed the instructions. I created a new interface, created a new module to inject the correct
+dependency at runtime, and added that module to the guice injector. It took me a while to figure out how to do all of this, 
+but I was able to get it working. I also changed the format so it was easier to read, in my opinion.
 
 ## Challenge #3 Complete
 
-(Explain your solution to Challenge #3. If it is not complete, change
-the subsection title above to "Incomplete" and explain how far you got
-and where you got stuck.)
+To complete Challenge 3 I used a stream and a map to help get rid of the for loop. I then used collect to take all of the strings
+and display them on their own line.
 
 ## Reflection Question #1: Functional vs OO
 
 (Write one or more paragraphs comparing and contrasting the iterative and functional  
 approaches to string concatenation you explored in challenge #3. Which do you
 prefer, and why?)
+
 
 ## Reflection Question #2: Polymorphism and Dependency Inversion
 
